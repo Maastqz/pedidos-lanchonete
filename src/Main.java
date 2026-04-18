@@ -1,3 +1,7 @@
+import model.Lanchonete;
+import model.Pedido;
+import model.Produto;
+
 import java.time.LocalDate;
 
 public class Main {
@@ -12,7 +16,7 @@ public class Main {
             pedido1.adicionarProduto(p1);
             pedido1.adicionarProduto(p2);
 
-            System.out.println("Total do Pedido 1: R$ " + pedido1.calcularTotal());
+            System.out.println("Total do model.Pedido 1: R$ " + pedido1.calcularTotal());
             pedido1.finalizarPedido();
             minhaLanchonete.registrarPedido(pedido1);
 
